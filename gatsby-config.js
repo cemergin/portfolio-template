@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Portfolio Template`,
     description: `Portfolio template for software engineers created using Gatsby & React.`,
-    author: `author name`,
+    author: `Author Name`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
