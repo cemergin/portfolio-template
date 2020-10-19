@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Portfolio Template`,
-    description: `Portfolio template for software engineers. `,
+    description: `Portfolio template for software engineers created using Gatsby & React.`,
     author: `author name`,
   },
   plugins: [
