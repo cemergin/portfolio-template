@@ -8,6 +8,27 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-mdx`,
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "blog-posts",
+        path: `${__dirname}/content/blog/`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "portfolio-posts",
+        path: `${__dirname}/content/portfolio/`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "portfolio-posts",
+        path: `${__dirname}/content/extra/`,
+      },
+    },
+    {
       resolve: "gatsby-plugin-prettier-eslint",
       // this is the default configuration, override only what you need
       options: {

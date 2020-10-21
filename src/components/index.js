@@ -1,0 +1,4 @@
+export { default as Footer } from "./Footer";
+export { default as Header } from "./Header";
+export { default as SEO } from "./SEO";
+export { default as PageTemplate } from "./post-page-layout";
